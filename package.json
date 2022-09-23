@@ -1,0 +1,17 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "> :information_source:  Vale destacar que estamos utilizando configuração para arquivos escritos em JavaScript e que este projeto visa documentar a nova configuração do @badeball/cypress-cucumber-preprocessor. Como realizar a criação de arquivos e estruturar o projeto está contido em em outro [projeto](https://github.com/luisantoniosasilva/Cypress_Cucumber_PageObjects).",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.4",
+    "cypress": "^10.8.0"
+  }
+}
