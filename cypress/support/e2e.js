@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+// import './zero-website-commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
