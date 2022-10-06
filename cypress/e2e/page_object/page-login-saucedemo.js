@@ -1,3 +1,4 @@
+const user = require('../../fixtures/saucedemo.json')
 class pageLoginSaucedemo{
 
     elements = {
@@ -8,11 +9,11 @@ class pageLoginSaucedemo{
     }
 
     typeUsername(username){
-        this.elements.usernameInput().type(username);
+        this.elements.usernameInput().type(user.username);
     }
 
     typePassword(password){
-        this.elements.passwordInput().type(password);
+        this.elements.passwordInput().type(user.password);
     }
 
     clickLogin(){
